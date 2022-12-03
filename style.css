@@ -1,3 +1,37 @@
+* {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 23px;
+}
+
+.hardo {
+	border: #c8ccd1 3px solid;
+	display: block;
+	margin: auto;
+}
+
+h2 {
+	margin-bottom: -3px;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	padding: 5px;
+}
+
+nav {
+	margin-bottom: -40px;
+	margin-top: -20px;
+
+
+}
+
 .fundo {
 	background-color: rgb(181, 213, 242);
 
@@ -41,11 +75,13 @@
 }
 
 #foto {
+
 	background: #e6e2e2;
 	width: 250px;
-	padding: 5px;
-	float: left;
-	margin: 5px;
+	padding: auto;
+	margin: auto;
+	border: #c8ccd1 solid 3px;
+	font-size: 93%;
 }
 
 #foto2 {
@@ -54,8 +90,16 @@
 	padding: 5px;
 	float: left;
 	margin: 5px;
+	font-size: 93%;
+	border: #c8ccd1 3px solid;
 }
 
 #clear {
 	clear: both;
+}
+
+#cais{
+	border: #c8ccd1 solid 3px;
+	
+	
 }
